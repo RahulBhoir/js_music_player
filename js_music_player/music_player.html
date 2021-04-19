@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music_player.css">
+    <title>music player</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Music Player</h3>
+        <span class="div-track-player">
+            <p>this is shit
+            </p>
+            <div class="track-buttons">
+                <button id="prev-btn" onclick="prevSong()">prev</button>
+                <audio id="track" controls>
+                </audio>
+                <button id="next-btn" onclick="nextSong()">next</button>
+            </div>
+            <div class="song-select-buttons">
+                <input type="file" name="fileList" id="filePicker" webkitdirectory multiple>
+                <button id="load-button" onclick="loadSong()">load song</button>
+            </div>
+        </span>
+        <h4>track list</h4>
+        <span class="div-track-list">
+            <ul id="track-list"></ul>
+        </span>
+    </div>
+    
+    <script src="music_player.js"></script>
+</body>
+</html>

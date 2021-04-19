@@ -1,0 +1,126 @@
+:root {
+  --div-border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(212, 208, 208);
+}
+
+h3 {
+  margin-top: 0px;
+  border: var(--div-border);
+  width: 800px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  text-justify: auto;
+}
+.container {
+  background-color: aqua;
+  position: relative;
+  display: block;
+  margin: auto;
+  border: var(--div-border);
+  width: 800px;
+  height: 300px;
+}
+.div-track-player {
+  background-color: red;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  border: var(--div-border);
+  width: 465px;
+  height: 250px;
+}
+
+p {
+  border: var(--div-border);
+  position: absolute;
+  top: 0%;
+  width: 460px;
+  height: 70px;
+}
+
+.div-track-list {
+  background-color: green;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border: var(--div-border);
+  width: 330px;
+  height: 230px;
+  overflow-y: auto;
+  /* overflow-x: hidden; */
+}
+
+.track-buttons {
+  border: var(--div-border);
+  position: relative;
+  top: 40%;
+}
+
+button {
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+}
+
+#track {
+  position: absolute;
+  left: 100px;
+  width: 270px;
+}
+#prev-btn {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#next-btn {
+  position: absolute;
+  right: 0%;
+}
+
+.song-select-buttons {
+  position: relative;
+  top: 60%;
+  border: var(--div-border);
+}
+#load-button {
+  position: relative;
+  right: -3%;
+  width: 150px;
+}
+
+h4 {
+  position: absolute;
+  top: 9%;
+  right: 0%;
+  width: 333px;
+  height: 30px;
+  background-color: blanchedalmond;
+}
+
+ul {
+  position: inherit;
+  list-style: none;
+  top: -5%;
+  margin-left: 10px;
+}
+
+li {
+  width: 450px;
+  height: 25px;
+  margin-left: -11%;
+  margin-top: 10px;
+  font-weight: bold;
+}
+li:hover {
+  color: yellow;
+  background-color: rgba(212, 208, 208, 0.2);
+}
